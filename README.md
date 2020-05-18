@@ -1,35 +1,9 @@
 # MovieFinder-Android
 Check out the Android App to search movies from OMDb Api using Kotlin...😉😀😁😎
 
-## 📸 Screenshots
+## Лабораториска Вежба 2
+Потребно е да изработите апликација која ќе oвозможи пребарување и приказ на детали за филмовите преку http://www.omdbapi.com/. Потребно е да креирате бесплатна регистрација на OMDB за да може да го користите. <br />
 
-**Please click the image below to enlarge.**
+Главното MoviesActivity треба да прикаже поле за пребарување по наслов на филмот и копче за пребарување во ActionBar делот од Activity-то (https://developer.android.com/training/search/setup). По клик на копчето за пребарување, треба да се превземат кратки верзии од резултатите (plot=short параметарот од OMDB API) со помош на Retrofit, да се запишат во локална база на податоци со Room Persistence библиотеката и да се прикажат во RecyclerView.<br />
 
-<img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120535.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120541.png" height="600" width="300" hspace="40">
-
-<img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120549.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120602.png" height="600" width="300" hspace="40">
-
-<img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120619.png" height="600" width="300" hspace="40"><img src="https://github.com/Shashank02051997/MovieFinder-Android/blob/master/Screenshots/Screenshot_20190804-120626.png" height="600" width="300" hspace="40">
-
-## Contributing
-
-Please fork this repository and contribute back using
-[pull requests](https://github.com/Shashank02051997/MovieFinder-Android/pulls).
-
-Any contributions, large or small, major features, bug fixes, are welcomed and appreciated
-but will be thoroughly reviewed .
-
-### Contact - Let's become friend
-- [Twitter](https://twitter.com/shashank020597)
-- [Github](https://github.com/Shashank02051997)
-- [Linkedin](https://www.linkedin.com/in/shashank-singhal-a87729b5/)
-- [Facebook](https://www.facebook.com/shashanksinghal02)
-### Like our facebook page
-- [Android UI's Bucket](https://www.facebook.com/androiduisbucket)
-
-## Donation
-If this project help you reduce time to develop, you can give me a cup of coffee :) 
-
-<a href="https://www.buymeacoffee.com/mXUuDW7" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-### Show some :heart: and star the repo to support the project
+За филмовите во листата да се прикаже мала сликичка, наслов и година на издавање. При клик на филм од листата потребно е imdbID да се испрати на второ MovieDetailsActivity кое ќе служи да ги прикаже деталите.  Исчитувањето на деталите треба да се направи од база.
